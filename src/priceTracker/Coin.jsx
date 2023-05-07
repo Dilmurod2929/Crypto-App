@@ -42,7 +42,7 @@ const Coin = () => {
                         />
                         {coin.name}
                       </td>
-                      <td>{coin.current_price} $</td>
+                      <td>{coin.current_price}</td>
                       {coin.market_cap_change_percentage_24h < 0 ? (
                         <td className="text-danger">
                           {coin.market_cap_change_percentage_24h.toFixed(2)}%         ↓

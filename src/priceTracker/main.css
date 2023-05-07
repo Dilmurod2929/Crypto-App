@@ -20,13 +20,3 @@ span {
   color: gold;
   margin-left: 5px;
 }
-
-@media (max-width: 400px) {
-  .logo {
-    width: 30px;
-  }
-  .crypto-img {
-    width: 25px;
-    margin-right: 3px;
-  }
-}
